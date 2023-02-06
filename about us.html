@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width, initial-scale=1.0">
+        <title>D EVENTS THE BEST DECORATORS</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+    <body>
+        <section class="sub-header">
+          <nav>
+              <a href="index.html"><img src="images/logo.png"></a>
+              <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i> 
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT</a></li>
+                    <li><a href="Galley.html">Galley</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showmenu()"></i>
+
+            </nav>
+            <h1>About us</h1>
+        </section>
+
+        <!-----about us content------>
+
+<section class="about-us">
+
+<div class="row">
+    <div class="abour-col">
+        <h1>We Are The Best Decorators The World Has Never Seen</h1>
+        <p>Trust us with your function You won't regetS</p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="abour-col">
+        <img src="images/IMG-20230204-WA0016.jpg">
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">Post comment</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+<!------footer----------->
+<section class="footer">
+<h4>About us</h4>
+<p>You can find us at our branch nasana or Naluvule Our main branch or contact on<br> 0751496872 or 0750935431</p>
+<div class="icons">
+<i class="fa-solid fa-facebook"></i>
+<i class="fa-solid fa-twitter"></i>
+<i class="fa-solid fa-instagram"></i>
+<i class="fa-solid fa-linkedin"></i>
+</div>
+<p>Made By<i class="fa-solid fa-heart-o"> </i>Ssenyonga Derick</p>
+</section>
+
+
+
+ <!---------javascrip for toggle menu----->
+ <script>
+   var navlinks = document.getElementById("navlinks"); 
+
+function showmenu(){
+    navlinks.style.right = "0";
+}
+function hidemenu(){
+    navlinks.style.right = "-200px";
+}
+
+ </script>   
+    </body>
+</html>
